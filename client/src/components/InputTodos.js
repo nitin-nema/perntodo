@@ -1,7 +1,7 @@
 import React, { useState } from 'react';
 
 function InputTodos() {
-    const [description, setDescription] = useState("add your todo");
+    const [description, setDescription] = useState("What's on your todo list ..");
     const onSubmitForm = async e => {
         e.preventDefault();
 
